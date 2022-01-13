@@ -1,0 +1,15 @@
+[package]
+name = "graphql-practice"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.52"
+async-graphql = { version = "3.0.21", features = ["uuid", "chrono"] }
+async-graphql-rocket = "3.0.21"
+chrono = "0.4.19"
+rocket = "0.5.0-rc.1"
+sqlx = { version = "0.5.10", features = ["sqlite", "chrono", "uuid", "runtime-tokio-rustls", "offline"] }
+uuid = "0.8.2"

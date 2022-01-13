@@ -1,0 +1,1 @@
+A little practice of how to create a GraphQL server using Rust Language and SQLite as database.
